@@ -7,7 +7,7 @@ This plugin requires Posts 2 Posts and WP-API (v2) plugins for WordPress
 2. Install and activate [Restful P2P plugin](https://github.com/JiveDig/restful-p2p/)
 3. Register your Posts 2 Posts connection(s) via its API
 
-Example:
+ Example:
 ```
 add_action( 'p2p_init', 'prefix_register_p2p_connections' );
 function prefix_register_p2p_connections() {
@@ -20,7 +20,7 @@ function prefix_register_p2p_connections() {
 ```
 4. Use the helper function to add a Restful P2P 'connection button' anywhere you'd like
 
-Example:
+ Example:
 ```
 add_filter( 'the_content', 'prefix_filter_the_content' );
 function prefix_filter_the_content( $content ) {
