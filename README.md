@@ -1,6 +1,8 @@
 Restful P2P
 ===================
 
+Connect 2 objects (via Posts 2 Posts) with the Rest API (AJAX)
+
 This plugin requires Posts 2 Posts and WP-API (v2) plugins for WordPress
 
 ## Basic Usage
