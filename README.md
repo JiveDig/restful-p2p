@@ -77,3 +77,4 @@ echo get_restful_p2p_link( $args );
 	    return $content . $button;
 	}
 	```
+1. As of now, clicking a button creates a connection, then clicking again deletes (disconnects) the connection. In the future I may add the ability to disable 'disconnecting' connections, I'm just not sure how many use cases there are for that sort of thing.
