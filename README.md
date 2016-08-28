@@ -3,7 +3,7 @@ Restful P2P
 
 This plugin requires Posts 2 Posts and WP-API (v2) plugins for WordPress
 
-# Basic Usage
+## Basic Usage
 ```
 /**
  * Display a Posts 2 Posts connection button
@@ -30,7 +30,7 @@ $args = array(
 echo get_restful_p2p_link( $args );
 ```
 
-# Instructions
+## Instructions
 
 1. Install and activate required [Posts 2 Posts](https://wordpress.org/plugins/posts-to-posts/) plugin and [WordPress REST API (Version 2)](https://wordpress.org/plugins/rest-api/)
 1. Install and activate [Restful P2P plugin](https://github.com/JiveDig/restful-p2p/)
